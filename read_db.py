@@ -1,3 +1,9 @@
+
+"""
+方案一
+"""
+
+
 import pymysql
 
 db = pymysql.connect(host='localhost',
