@@ -1,3 +1,7 @@
+"""
+连接数据库
+"""
+
 import pymysql
 import re
 
