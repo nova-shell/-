@@ -9,7 +9,7 @@ db = pymysql.connect(host='localhost',
                      database='dict',
                      charset='utf8')
 
-# 生产游标对象 （操作数据库执行sql语句获取结果的对象）
+# 生成游标对象 （操作数据库执行sql语句获取结果的对象）
 cur = db.cursor()
 
 # 插入单词
